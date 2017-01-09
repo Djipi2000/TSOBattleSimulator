@@ -51,6 +51,9 @@
   <ItemGroup>
     <Folder Include="tests\" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include=".travis.yml" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
