@@ -12,6 +12,9 @@
     <OutputPath>.</OutputPath>
     <Name>TSOBattleSimulator</Name>
     <RootNamespace>TSOBattleSimulator</RootNamespace>
+    <IsWindowsApplication>False</IsWindowsApplication>
+    <InterpreterId>{2af0f10d-7135-4994-9156-5d01c9c11b7e}</InterpreterId>
+    <InterpreterVersion>3.5</InterpreterVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,7 +25,31 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Adventure.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Battle.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tests\test_Adventure.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tests\test_Battle.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tests\Test_Unit.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="TSOBattleSimulator.py" />
+    <Compile Include="Unit.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="{2af0f10d-7135-4994-9156-5d01c9c11b7e}\3.5" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="tests\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

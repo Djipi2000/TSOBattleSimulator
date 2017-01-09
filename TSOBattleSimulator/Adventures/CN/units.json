@@ -1,0 +1,122 @@
+[
+  {
+    "name": "millicien",
+    "abbrev": "M",
+    "hp": 60,
+    "min_dmg": 20,
+    "max_dmg": 40,
+    "accuracy": 60,
+    "strike_order": 2,
+    "targetweakest": 0,
+    "splashdamage": 0,
+    "targetorder": 1
+  },
+  {
+    "name": "cavalier",
+    "abbrev": "Cava",
+    "hp": 5,
+    "min_dmg": 5,
+    "max_dmg": 10,
+    "accuracy": 60,
+    "strike_order": 1,
+    "targetweakest": 1,
+    "splashdamage": 0,
+    "targetorder": 2
+  },
+  {
+    "name": "soldat",
+    "abbrev": "S",
+    "hp": 90,
+    "min_dmg": 20,
+    "max_dmg": 40,
+    "accuracy": 65,
+    "strike_order": 2,
+    "targetweakest": 0,
+    "splashdamage": 0,
+    "targetorder": 3
+  },
+  {
+    "name": "soldat elite",
+    "abbrev": "SE",
+    "hp": 120,
+    "min_dmg": 20,
+    "max_dmg": 40,
+    "accuracy": 70,
+    "strike_order": 2,
+    "targetweakest": 0,
+    "splashdamage": 0,
+    "targetorder": 4
+  },
+  {
+    "name": "archer",
+    "abbrev": "Arc",
+    "hp": 10,
+    "min_dmg": 20,
+    "max_dmg": 40,
+    "accuracy": 60,
+    "strike_order": 2,
+    "targetweakest": 0,
+    "splashdamage": 0,
+    "targetorder": 5
+  },
+  {
+    "name": "archer long",
+    "abbrev": "Aa",
+    "hp": 10,
+    "min_dmg": 30,
+    "max_dmg": 60,
+    "accuracy": 60,
+    "strike_order": 2,
+    "targetweakest": 0,
+    "splashdamage": 0,
+    "targetorder": 6
+  },
+  {
+    "name": "arbaletrier",
+    "abbrev": "Ab",
+    "hp": 10,
+    "min_dmg": 45,
+    "max_dmg": 90,
+    "accuracy": 60,
+    "strike_order": 2,
+    "targetweakest": 0,
+    "splashdamage": 0,
+    "targetorder": 7
+  },
+  {
+    "name": "cannonier",
+    "abbrev": "K",
+    "hp": 60,
+    "min_dmg": 60,
+    "max_dmg": 120,
+    "accuracy": 70,
+    "strike_order": 3,
+    "targetweakest": 0,
+    "splashdamage": 0,
+    "targetorder": 8
+  },
+  {
+    "name": "robin",
+    "abbrev": "SR",
+    "hp": 12000,
+    "min_dmg": 200,
+    "max_dmg": 600,
+    "accuracy": 80,
+    "strike_order": 1,
+    "targetweakest": 1,
+    "splashdamage": 1,
+    "targetorder": 9
+  },
+  {
+    "name": "berta",
+    "abbrev": "GB",
+    "hp": 40000,
+    "min_dmg": 50,
+    "max_dmg": 150,
+    "accuracy": 75,
+    "strike_order": 3,
+    "targetweakest": 1,
+    "splashdamage": 1,
+    "targetorder": 10
+  }
+]

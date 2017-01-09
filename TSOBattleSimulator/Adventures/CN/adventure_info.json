@@ -1,0 +1,11 @@
+[{
+	"adventure_name": "Les Chevaliers Noirs",
+	"adventure_units": "./Adventures/CN/units.json",
+	"adventure_camps": [{
+		"name": "1",
+		"file": "./Adventures/CN/1.json"
+	}, {
+		"name": "2",
+		"file": "./Adventures/CN/2.json"
+	}]
+}]

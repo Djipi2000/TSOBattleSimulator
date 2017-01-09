@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<ProfilingTarget xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectTarget>
+    <TargetProject>7066f449-c26d-4290-9575-539d087af460</TargetProject>
+    <FriendlyName>TSOBattleSimulator</FriendlyName>
+  </ProjectTarget>
+  <Reports>
+    <Report>
+      <Filename>C:\Users\Ghislain\AppData\Local\Temp\TSOBattleSimulator_20170108.vsp</Filename>
+    </Report>
+  </Reports>
+</ProfilingTarget>
